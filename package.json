@@ -7,7 +7,9 @@
   "main": "./src/generate.js",
   "type": "module",
   "scripts": {
-    "generate": "node ./src/generate.js"
+    "generate": "node ./src/generate.js",
+    "variation": "node ./src/variation.js",
+    "edit": "node ./src/edit.js"
   },
   "keywords": [
     "DALL-E",
