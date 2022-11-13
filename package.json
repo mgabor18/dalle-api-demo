@@ -1,0 +1,21 @@
+{
+  "name": "dalle-api-demo",
+  "author": "Gábor Márton",
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "Demo of the OpenAI DALL-E API",
+  "main": "./src/generate.js",
+  "type": "module",
+  "scripts": {
+    "generate": "node ./src/generate.js"
+  },
+  "keywords": [
+    "DALL-E",
+    "API",
+    "OpenAI"
+  ],
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^3.1.0"
+  }
+}
