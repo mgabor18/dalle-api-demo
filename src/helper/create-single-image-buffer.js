@@ -4,8 +4,9 @@
  * @returns Buffer
  */
 export async function createSingleImageBuffer(result) {
+  //get the URL from the creation result
   const url = result.data.data[0].url;
-  //fetch the iamge by the URL
+  //fetch the image by the URL
   const imgResult = await fetch(url);
   //create blob
   const imgBlob = await imgResult.blob();
