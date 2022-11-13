@@ -28,7 +28,7 @@ Pictures can be [generated](#generate), [edited](#edit) or [variations](#variati
 ## Generate
 
 Basically any kind of picture can be created.
-The following command can be used to generate a picture with the given promp:
+The following command can be used to generate a picture with the given prompt:
 
 ```
 npm run generate
