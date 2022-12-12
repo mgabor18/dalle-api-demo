@@ -12,6 +12,7 @@ const configuration = new Configuration({
 
 const openAI = new OpenAIApi(configuration);
 
+
 // The API returns with the result, the image can be reached by an URL inside this result
 const creationResult = await openAI.createImageEdit(
   createReadStream('./assets/edit_files/computer_src.png'), // source picture
